@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <!--
+    HTML : HyperText Markup Language
+    사용자(유저). 브라우저(크롬, 웨일, ...) > 웹페이지
+    개발자가 사용자에게 보여주고 싶은 컨텐츠를
+    브라우저가 읽을 수 있도록 만들어놓은 문서
+-->
+
+  <head>
+    <!--
+        BODY태그를 읽기 이전에 알아야 할 정보
+        이 HTML파일의 기본적인 정보
+    -->
+    <!--HTML에 css를 적용-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!--
+        사용자에게 보여주고 싶은 컨텐츠
+    -->
+    <div class="box">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
+      inventore eaque harum. Molestiae aliquam odio ipsa? Consequuntur doloribus
+      magnam ipsa commodi temporibus possimus animi mollitia. Eum commodi iure
+      repellat nulla.<br /><br />
+      안녕하세요~ 화이팅!!!
+    </div>
+    <p>
+      <!--여는 태그-->
+      <!--
+            여는 태그와 닫는 태그 사이에는 문자가 들어갈 수도 있고
+            다른 태그가 들어갈 수 있다
+        -->
+      컨텐츠를 입력!
+      <span> 안녕하세요 </span>
+      <!--닫는 태그-->
+    </p>
+    <p class="title">
+      class가 태그보다 우선순위
+      <!--class는 여러번 사용 가능-->
+    </p>
+    <p class="title" id="heading">
+      id가 class보다 우선순위
+      <!--id는 고유 id로 한 번만 사용 가능-->
+    </p>
+    <p
+      style="font-size: 36px; font-weight: 100; color: rgb(63, 100, 157)"
+      class="title"
+      id="heading"
+    >
+      <!--특정 태그만 속성 설정 가능-->
+      인라인이 최우선순위
+    </p>
+
+    <p class="title-size title-color title-weight">
+      한 태그에 class를 여러개 사용 가능
+    </p>
+
+    <p>p + tab 단축키</p>
+    <p class="title">p.클래스명 + tab 단축키</p>
+    <p id="heading">p#아이디명 + tab 단축키</p>
+    <p>p*개수 + tab 단축키</p>
+    <ul>
+      <li>ul>li*개수 + tab 단축키</li>
+      <li></li>
+    </ul>
+
+    <a href="https://www.naver.com/">
+      <!--속성이 반드시 필요한 태그-->
+      네이버
+    </a>
+
+    <img />
+    <!--
+        여는 태그로만 구성된 태그도 있다
+    -->
+  </body>
+</html>

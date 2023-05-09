@@ -1,0 +1,40 @@
+.box{
+    width: 300px;
+    height: 200px;
+
+    padding: 20px;
+
+    background-color: aqua;
+    border: 10px blue solid;
+    border-radius: 30px;
+}
+
+p {
+    font-size: 36px;
+    font-weight: 100;
+    color: red;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 100;
+    color: green;
+}
+
+.title-color{
+    color: pink;
+}
+
+.title-size{
+    font-size: 24px;
+}
+
+.title-weight{
+    font-weight: 800;
+}
+
+#heading{
+    font-size: 36px;
+    font-weight: 100;
+    color: yellow;
+}
